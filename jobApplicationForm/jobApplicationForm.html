@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Maplestory Explore Job App</title>
+</head>
+<body>
+
+<h2>Maplestory Explore Job Application</h2>
+
+<form action="https://formspree.io/moqkwdnn" method="post">
+    
+    <fieldset>
+        <legend>Account Login</legend>
+        <div class="field">
+            <label>Email:</label> 
+            <input type="text" name="email">
+        </div>
+        <div class="field">
+            <label>Password:</label> 
+            <input type="password" name="password">
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Personal Information</legend>
+        <div class="field">
+            <label>Full Name:</label> 
+            <input type="text" name="name">
+        </div>
+        <div class="field">
+            <label>Country:</label> 
+            <input type="text" name="country">
+        </div>
+        <div class="field">
+            <label>What is your gender?</label> 
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="male">Male
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Class</legend>
+        <div class="field">
+            <label>Class:</label> 
+            <select name="class">
+                <option value="" selected="true">Choose a Class</option>
+                <option value="warrior">Warrior</option>
+                <option value="magician">Magician</option>
+                <option value="bowman">Bowman</option>
+                <option value="thief">Thief</option>
+                <option value="pirate">Pirate</option>
+            </select>
+            <label>Branch:</label> 
+            <select name="branch">
+                <option value="" selected="true">Choose a Class</option>
+                <optgroup label="Warrior"></option>
+                    <option value="fighter">Fighter</option>
+                    <option value="page">Page</option>
+                    <option value="spearman">Spearman</option>
+                <optgroup label="Magician"></option>
+                    <option value="fire">Fire</option>
+                    <option value="ice">Ice</option>
+                    <option value="cleric">Cleric</option>
+                <optgroup label="Bowman"></option>
+                    <option value="hunter">Hunter</option>
+                    <option value="crossbowman">Crossbowman</option>
+                <optgroup label="Thief"></option>
+                    <option value="assassin">Assassin</option>
+                    <option value="bandit">Bandit</option>
+                <optgroup label="Pirate"></option>
+                    <option value="brawler">Brawler</option>
+                    <option value="gunslinger">Gunslinger</option>
+            </select>
+        </div>
+        <div class="field">
+			<label>Why do you want to be in that class?</label><br>
+			<textarea name="want" rows="5" cols="50"></textarea>
+        </div>
+        <div class="field">
+			<label>Check all characteristics that apply to you</label>
+			<li><input type="checkbox" name="characteristic_bg" value="beginner">Beginner</li>
+            <li><input type="checkbox" name="characteristic_fd" value="funded">Funded</li>
+            <li><input type="checkbox" name="characteristic_lk" value="link">Link Character</li>	
+		</div>
+    </fieldset>
+
+    <input type="submit" value="Submit App">
+
+</form>
+</body>
+</html>
